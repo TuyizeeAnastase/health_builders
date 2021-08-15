@@ -1,0 +1,48 @@
+.header{
+    background:whitesmoke
+}
+.header img{
+    float: left;
+    width: 100px;
+    height: 40px;
+    padding: 4px;
+    margin: 26px;
+}
+.header p{
+    float: right;
+    margin: 26px;
+    font-weight: bolder;
+    font-size: large;
+}
+.left{
+    margin-top: 4px;
+}
+.left h2{
+    font-size: 20px;
+    font-weight: 900;
+    float: left;
+    margin-left: 40px;
+}
+.left p{
+    position: relative;
+    float: left;
+    margin-left: 44px;
+    margin-top: 22px;
+}
+.signup{
+    float: left;
+    margin-left: -20rem;
+    margin-top:4rem;
+}
+.inputBox{
+    padding: 10px;
+}
+.inputBox label{
+    margin-right: 5px;
+}
+.right{
+    float: right;
+    margin-right: 0;
+    width: 500px;
+    height: 100%;
+}

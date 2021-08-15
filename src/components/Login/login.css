@@ -1,0 +1,44 @@
+.login{
+    background: gray;;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
+.login_header1{
+    color: #000;
+    font-size: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.login-header2{
+    color: rgb(77, 77, 19);
+}
+.login{
+    display: inline-block;
+    padding: 50px;
+}
+.login input{
+    width: 20rem;
+    height: 2rem;
+    padding: 2px;
+    margin: 4px 0;
+    text-align: center;
+    border: none;
+}
+.login input[type='text']{
+   border-radius: 10px;
+}
+.login input[type='submit']{
+    background: green;
+    width: 4rem;
+    height: 3rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: honeydew;
+}
+.forgot-password,
+.sign-up-link{
+    cursor: pointer;
+    font-size: small;
+}

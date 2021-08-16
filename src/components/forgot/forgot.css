@@ -1,0 +1,33 @@
+.left{
+    float: left;
+    padding: 24px;
+}
+.left p{
+    font-weight: bolder;
+}
+.inputBox{
+    padding: 4px;
+    margin-top: 4px;
+}
+.inputBox label{
+    margin-top: 4px;
+}
+.inputBox input{
+    margin-top: 40px;
+    text-align: left;
+}
+.forgotBtn{
+    margin-top: 10px;
+    width: 30rem;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    background-color: seagreen;
+}
+
+.right{
+    float: right;
+}
+.right img{
+    margin-top: -13rem;
+}

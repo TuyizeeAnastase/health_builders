@@ -6,19 +6,17 @@ import logo from '../../images/logo.png';
 const Login=()=>{
     return (
       <div className="log">
-       <div className="login">
+       <div className="login" style={{background:'rgb(35,35,56,.9)'}}>
          <div className="login-Title">
            <div style={{background:'#fff',marginTop:'0px'}}>
              <img src={logo} alt="" style={{height:'70px'}}/>
            </div>
-           <h1 className="login-header1">Welcome to performanance survey</h1>
-           <h3 className="login-header2">Partenering with Rwandan communities to improve the quality of their health care</h3>
+           <h3 className="login-header2">Welcome to CHC community Portal login below using the email that you have on CHC file</h3>
            <form action="" className="login">
-             <input type="text" className="username" placeholder="Enter your email" />
-             <i class="fa fa-user" style={{marginLeft:'-20rem',marginTop:'4px',fontSize:'30px',color:'seagreen',position:'absolute'}}></i>
+             <i class="fa fa-user" style={{marginLeft:'-6rem',marginTop:'4px',fontSize:'30px',color:'seagreen',position:'absolute'}}></i>
+             <input type="text" className="username" placeholder="Email" />
              <input type="text" className="password" placeholder="Enter your password" />
-             <i class="fa fa-lock" style={{marginLeft:'-20rem',marginTop:'4px',fontSize:'30px',color:'seagreen',position:'absolute'}}></i>
-             <i class="fa fa-eye" style={{marginLeft:'-2.5rem',cursor:'pointer',marginTop:'4px',fontSize:'30px',color:'#000',position:'absolute'}}></i>
+             <i class="fa fa-lock" style={{marginLeft:'-30rem',marginTop:'4px',fontSize:'30px',color:'seagreen',position:'absolute'}}></i>
              <Link to="/info">
                 <input type="submit" value="LOGIN" />
              </Link>

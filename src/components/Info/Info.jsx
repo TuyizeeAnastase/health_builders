@@ -26,7 +26,7 @@ const Info=()=>{
                    <div className="input-Box">
                        <i className="fa fa-map-marker" style={{fontSize:'25px',margin:'4px'}}></i>
                        <input type="text" placeholder="Input field"/>
-                       <i className="fa fa-search" style={{fontSize:'22px',margin:'4px',position:'absolute',background:'green',color:'white',padding:'4px'}}></i>
+                       <i className="fa fa-search" style={{fontSize:'22px',margin:'4px',position:'absolute',background:'seagreen',color:'white',padding:'4px'}}></i>
                    </div>
                    <div className="select">
                        <select name="Please select Province" id="">

@@ -35,7 +35,7 @@ const signUp=()=>{
                       <label>Password</label>
                       <input type="password" />
                     </div>
-                    <input type="submit" value="Sign Up" />
+                    <input className="signUp" type="submit" value="Sign Up" />
                 </form>
             </div>
             <div className="right">

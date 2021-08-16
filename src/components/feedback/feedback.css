@@ -1,0 +1,17 @@
+.content h3{
+   font-weight: 900;
+   line-height: 4px;
+   font-size: x-large;
+}
+.content p{
+    line-height: 4px;
+    font-style: italic;
+    padding: 25px;
+}
+.content button{
+    width: 20rem;
+    height: 2rem;
+    background-color: seagreen;
+    border-radius: 5px;
+    border: none;
+}

@@ -95,7 +95,7 @@ const Performance=()=>{
                       </label>
                       </div>
                   </div>
-                  <div className="btn">
+                  <div className="btn" style={{marginTop:'27rem',float:'right',marginRight:'-20rem'}}>
                      <Link to="/info"><input type="submit" value="Back" style={{backgroundColor:'#A47AB3'}} /></Link>
                      <Link to="/leadership"><input type="submit" value="Send" style={{marginLeft:'20px',backgroundColor:'seagreen'}} /></Link>
                   </div>

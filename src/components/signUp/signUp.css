@@ -15,24 +15,25 @@
     font-size: large;
 }
 .left{
-    margin-top: 4px;
+    margin-top: -2px;
 }
 .left h2{
     font-size: 20px;
     font-weight: 900;
     float: left;
     margin-left: 40px;
+    margin-top: 1px;
 }
 .left p{
     position: relative;
     float: left;
     margin-left: 50px;
-    margin-top: 22px;
+    margin-top: 3px;
 }
 .signup{
     float: left;
     margin-left: -20rem;
-    margin-top:4rem;
+    margin-top:0.5rem;
 }
 .inputBox{
     padding: 20px;
@@ -66,6 +67,7 @@
     margin-right: 0;
     width: 700px;
     height: 100%;
+    margin-top: -20rem;
 }
 .right img{
     object-fit: cover;

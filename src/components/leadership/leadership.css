@@ -1,0 +1,86 @@
+.top-info{
+    float: left;
+    margin-left: 1rem;
+    margin-top: -34rem;
+}
+.top-info h3{
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: -50rem;
+}
+.form-leadership{
+   display: flex;
+   justify-content: space-around;
+}
+.form-leadershipDiv{
+    margin-right: 10rem;
+}
+.w3-check{
+    color: seagreen;
+    margin-right: 3rem;
+}
+.main-content{
+    float: left;
+    margin-left: 4rem;
+    margin-top: -29rem;
+}
+.main-content h3{
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: -74rem;
+}
+.file{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -3rem;
+    margin-top: -2rem;
+}
+.file h4{
+    margin-right: 10rem;
+}
+.position{
+    display: flex;
+    margin-left: -3rem;
+}
+.position h4{
+    margin-right: 9rem;
+}
+.position input{
+    height: 20px;
+    width: 110px;
+    margin-right:5rem;
+    margin-top: 17px;
+}
+.available{
+    display: flex;
+    margin-left: -3rem;
+}
+.available h4{
+    margin-right:15rem;
+}
+.available input{
+    margin-right: 10rem;
+    margin-top: 17px;
+}
+.employer{
+    display: flex;
+    margin-left: -3rem; 
+}
+.employer h4{
+    margin-right: 10rem; 
+}
+.employer input{
+    margin-right: 10rem;
+    margin-top: 17px; 
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 10px;
+    border:none;
+    margin-top: -7rem;
+    float: right;
+    margin-right: 8rem;
+}

@@ -11,7 +11,8 @@ const Login=()=>{
            <div style={{background:'#fff',marginTop:'0px'}}>
              <img src={logo} alt="" style={{height:'70px'}}/>
            </div>
-           <h3 className="login-header2">Welcome to CHC community Portal login below using the email that you have on CHC file</h3>
+           <h3 style={{color:'seagreen'}}>Welcome to performance survey</h3>
+           <h3 className="login-header2">Paternering with Rwandan commuinities to improve the quality of their health care</h3>
            <form action="" className="login">
              <i class="fa fa-user" style={{marginLeft:'-6rem',marginTop:'4px',fontSize:'30px',color:'seagreen',position:'absolute'}}></i>
              <input type="text" className="username" placeholder="Email" />

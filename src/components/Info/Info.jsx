@@ -11,14 +11,15 @@ const Info=()=>{
             <div className="header" >
               <div className="logo">
                   <i className="fa fa-bars barIcon" style={{fontSize:'30px'}}></i>
-                  <Link to="/"><img src={logo} alt=""  className="logoIm" /></Link>
+                  <Link to="/"><img style={{marginTop:'-4px'}} src={logo} alt=""  className="logoIm" /></Link>
               </div>
               <div className="user">
-                  <h3 className="username">
-                  <i class="fa fa-user" style={{margin:'10px',color:'green'}}></i>
-                      UserName
-                  <i class="fa fa-chevron-down" style={{margin:'4px',cursor:'pointer'}}></i>
-                  </h3>
+                  <select id="user" name="user">
+                          <option value="username">username</option>
+                          <option value="logout">Logout</option>
+                          <option value="account">account</option>
+                   </select>
+                  <i class="fa fa-user" style={{marginRight:'74rem',position:'absolute'}}></i>
               </div>
             </div>
             <div className="content">
@@ -49,7 +50,7 @@ const Info=()=>{
                    </div>
                    <div className="select">
                        <select name="Please select Health center" id="">
-                           <option value="Please select Health center">Please select Province</option>
+                           <option value="Please select Health center">Please select Health center</option>
                            <option value="Northern Province">Rwamagana</option>
                            <option value="Southern Province">Nyabihu</option>
                            <option value="Southern Province">Rwamagana</option>
@@ -60,7 +61,7 @@ const Info=()=>{
                <div className="right-content">
                    <img src={map} alt="" />
                    <p>Our works focuses on three districts serving more than one million people</p>
-                   <button>Send</button>
+                   <Link to="./performance"><button>Send</button></Link>
                </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ const Forgot=()=>{
         <div className="forgot">
             <div className="header">
               <img src={logo} alt="" />
-              <p>Remember your password ? <span>Login</span></p>
+             <Link to="/"><p>Remember your password ? <span>Login</span></p></Link> 
             </div>
             <div className="left">
                 <p>Enter your email below and we will send you intructions to reset your password</p>
@@ -23,7 +23,7 @@ const Forgot=()=>{
                     <Link to="/feedback"><input className="forgotBtn" type="submit" value="Reset Password" /></Link>
                 </form>
             </div>
-            <div className="right">
+            <div className="rightF">
                 <img src={children} alt="" />
             </div>
         </div>

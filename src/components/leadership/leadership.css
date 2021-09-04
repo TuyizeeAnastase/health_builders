@@ -1,12 +1,14 @@
-.top-info{
-    float: left;
-    margin-left: 1rem;
-    margin-top: -34rem;
+.leadership-header{
+    margin-left: -24rem;
 }
-.top-info h3{
+.top-info-l{
+    float: left;
+    margin-top: -2rem;
+    margin-left: -10rem;
+}
+.top-info-l h3{
     font-weight: 800;
     font-size: 24px;
-    margin-left: -50rem;
 }
 .form-leadership{
    display: flex;
@@ -19,15 +21,15 @@
     color: seagreen;
     margin-right: 3rem;
 }
-.main-content{
+.main-contentL{
     float: left;
     margin-left: 4rem;
-    margin-top: -29rem;
+    margin-top: -28rem;
 }
-.main-content h3{
+.main-contentL h3{
     font-weight: 800;
     font-size: 24px;
-    margin-left: -74rem;
+    margin-left: -3rem;
 }
 .file{
     display: flex;

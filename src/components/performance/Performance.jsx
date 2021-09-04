@@ -9,9 +9,6 @@ const Performance=()=>{
           <div className="headerP">
               <h3>Performance Survey</h3>
               <div className="infoTop">
-                  <div className="logo">
-                     <img src={logo} alt="logo" />
-                  </div>
                   <div className="date">
                       <label >Date: 
                           <input type="date" value="12:00" required />
@@ -95,7 +92,7 @@ const Performance=()=>{
                       </label>
                       </div>
                   </div>
-                  <div className="btn" style={{marginTop:'27rem',float:'right',marginRight:'-20rem'}}>
+                  <div className="btn" style={{marginTop:'23rem',float:'right',marginRight:'-24rem'}}>
                      <Link to="/info"><input type="submit" value="Back" style={{backgroundColor:'#A47AB3'}} /></Link>
                      <Link to="/leadership"><input type="submit" value="Send" style={{marginLeft:'20px',backgroundColor:'seagreen'}} /></Link>
                   </div>

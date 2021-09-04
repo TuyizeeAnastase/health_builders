@@ -63,14 +63,20 @@
     height:30px;
     width: 20rem;
 }
+.right-content{
+    margin-left: 40rem;
+    padding: 4px;
+}
 .right-content img{
-    width: 350px;
-    height: 300px;
+    width: 550px;
+    height: 400px;
+    margin-top: 4px;
 }
 .right-content p{
   font-weight: 700;
+  font-size: 20px;
   padding: 4px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif
 }
 .right-content button{
     float: right;

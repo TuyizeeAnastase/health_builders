@@ -8,20 +8,6 @@ import 'font-awesome/css/font-awesome.min.css';
 const Info=()=>{
     return (
         <div className="info">
-            <div className="header" >
-              <div className="logo">
-                  <i className="fa fa-bars barIcon" style={{fontSize:'30px'}}></i>
-                  <Link to="/"><img style={{marginTop:'-4px'}} src={logo} alt=""  className="logoIm" /></Link>
-              </div>
-              <div className="user">
-                  <select id="user" name="user">
-                          <option value="username">username</option>
-                          <option value="logout">Logout</option>
-                          <option value="account">account</option>
-                   </select>
-                  <i class="fa fa-user" style={{marginRight:'74rem',position:'absolute'}}></i>
-              </div>
-            </div>
             <div className="content">
                <div className="left-content">
                    <div className="input-Box">

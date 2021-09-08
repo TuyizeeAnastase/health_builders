@@ -1,10 +1,11 @@
 import React from "react";
+import { Link} from 'react-router-dom';
 import "./login.css";
-import { Link } from "react-router-dom";
-import logo from "../../images/logo.png";
+import logo from "../images/logo.png";
 
 const Login = () => {
   return (
+    <div>
     <div className="login">
       <div className="loginContent">
         <div className="login-Title">
@@ -44,6 +45,7 @@ const Login = () => {
         </div>
       </div>
     </div>
+      </div>
   );
 };
 

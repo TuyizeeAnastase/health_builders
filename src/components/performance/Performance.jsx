@@ -1,6 +1,5 @@
 import React from 'react';
 import './performance.css';
-import logo from '../../images/logo.png';
 import { Link } from 'react-router-dom';
 
 const Performance=()=>{

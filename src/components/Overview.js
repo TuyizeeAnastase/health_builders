@@ -4,7 +4,7 @@ import logo from "../images/logo.png";
 import Info from "./Info/Info";
 import Performance from "../components/performance/Performance";
 import Leadership from "../components/leadership/Leadership";
-import Service from "./service/Service";
+import Service from "./service1/Service";
 
 const Overview = () => {
   return (

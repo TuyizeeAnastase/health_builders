@@ -1,11 +1,49 @@
-
-  .service{
-    margin-top: 10px;
-  }
+.services-title{
+  display: flex;
+  padding: 4px;
+}
+.services-title h4{
+  padding: 10px;
+}
+.services{
+  display: flex;
+}
+.services-header h4{
+  margin-right: 20rem;
+}
+.services div{
+  padding: .8rem;
+}
+.btnContainer{
+  float: right;
+  margin-top: -8rem;
+  margin-right: 4rem;
+}
+.btnContainerLinkB{
+  width: 80px;
+  height: 40px;
+  background: rgb(0, 62, 139);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin-right: 4px;
+}
+.btnContainerLink{
+  width: 80px;
+  height: 40px;
+  background: #2E8B57;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
   /* Step Indicator Styles */
-  
+  .steps{
+    margin-left: 20rem;
+    margin-top: 2rem;
+  }
   .stepIndicator {
-    margin-top: -40rem;
     width: 100%;
     display: flex;
     align-items: center;

@@ -18,7 +18,8 @@ const StepIndicator = () => {
     e.preventDefault();
   };
   return (
-    <div className="stepIndicator">
+    <div className="steps">
+      <div className="stepIndicator">
       {steps.map((step, index) => {
         return (
           <>
@@ -34,6 +35,7 @@ const StepIndicator = () => {
           </>
         );
       })}
+    </div>
     </div>
   );
 };

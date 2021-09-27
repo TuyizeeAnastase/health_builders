@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route, useHistory } from "react-router-dom";
+import { Route, useHistory } from "react-router-dom";
 import "./service.css";
 import StepIndicator from "./stepIndicator";
 import Service1  from "./Service1";
@@ -44,9 +44,9 @@ const Service = () => {
           </Route>
           <Route exact path="/service/step3">
            <Service3/>
-            <div className="btnContainer">
-              <button className="btnContainerLinkB" onClick={second}>Back</button>
-              <button className="btnContainerLink">Submit</button>
+            <div className="btnContainer" style={{marginBottom:'3rem'}}>
+              <button  className="btnContainerLinkB" onClick={second}>Back</button>
+              <button  className="btnContainerLink">Submit</button>
             </div>
           </Route>
         </div>

@@ -17,62 +17,63 @@ const Service2=()=>{
           <h4>Accounting</h4>
         </div>
         <div className="services">
-           <h4 className="services-header">Updated list of all required suppliers,equipments and instruments</h4>
-          <div>
-           <input style={{marginLeft:'8rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'-12rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'2rem'}} className="w4-check" type="checkbox" />
-          </div>
+           <h4 className="services-header" >Updated list of all required suppliers,equipments and instruments</h4>
           <div>
            <input style={{marginLeft:'7rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'13rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'-8rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'3rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'10rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'-8rem'}} className="w4-check" type="checkbox" />
-          </div>
-        </div>
-        <div className="services">
-          <h4>Updated list of all required suppliers,equipments and instruments</h4> <div>
-           <input style={{marginLeft:'13rem'}} className="w4-check" type="checkbox" />
           </div>
           <div>
            <input style={{marginLeft:'-9rem'}} className="w4-check" type="checkbox" />
           </div>
           <div>
-           <input style={{marginLeft:'12rem'}} className="w4-check" type="checkbox" />
+           <input style={{marginRight:'5rem'}} className="w4-check" type="checkbox" />
           </div>
           <div>
-           <input style={{marginLeft:'-12rem'}} className="w4-check" type="checkbox" />
+           <input style={{marginRight:'7rem'}} className="w4-check" type="checkbox" />
           </div>
           <div>
-           <input style={{marginLeft:'10rem'}} className="w4-check" type="checkbox" />
+           <input style={{marginRight:'13rem'}} className="w4-check" type="checkbox" />
           </div>
           <div>
-           <input style={{marginLeft:'-10rem'}} className="w4-check" type="checkbox" />
+           <input style={{marginRight:'-10rem'}} className="w4-check" type="checkbox" />
           </div>
           <div>
-           <input style={{marginLeft:'0.1rem'}} className="w4-check" type="checkbox" />
+           <input style={{marginLeft:'-6rem'}} className="w4-check" type="checkbox" />
           </div>
           <div>
-           <input style={{marginLeft:'10rem'}} className="w4-check" type="checkbox" />
+           <input style={{marginRight:'11rem'}} className="w4-check" type="checkbox" />
           </div>
           <div>
-           <input style={{marginLeft:'-10rem'}} className="w4-check" type="checkbox" />
+           <input style={{marginLeft:'-7rem'}} className="w4-check" type="checkbox" />
+          </div>
+        </div>
+        <div className="services">
+          <h4>Updated list of all required suppliers,equipments and instruments</h4> 
+          <div>
+           <input style={{marginLeft:'7rem'}} className="w4-check" type="checkbox" />
+          </div>
+          <div>
+           <input style={{marginLeft:'-9rem'}} className="w4-check" type="checkbox" />
+          </div>
+          <div>
+           <input style={{marginRight:'5rem'}} className="w4-check" type="checkbox" />
+          </div>
+          <div>
+           <input style={{marginRight:'7rem'}} className="w4-check" type="checkbox" />
+          </div>
+          <div>
+           <input style={{marginRight:'13rem'}} className="w4-check" type="checkbox" />
+          </div>
+          <div>
+           <input style={{marginRight:'-10rem'}} className="w4-check" type="checkbox" />
+          </div>
+          <div>
+           <input style={{marginLeft:'-6rem'}} className="w4-check" type="checkbox" />
+          </div>
+          <div>
+           <input style={{marginRight:'11rem'}} className="w4-check" type="checkbox" />
+          </div>
+          <div>
+           <input style={{marginLeft:'-7rem'}} className="w4-check" type="checkbox" />
           </div>
         </div>
       </div>

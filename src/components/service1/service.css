@@ -3,7 +3,7 @@
   padding: 4px;
 }
 .services-title h4{
-  padding: 10px;
+  padding: 20px;
 }
 .services{
   display: flex;
@@ -12,7 +12,7 @@
   margin-right: 20rem;
 }
 .services div{
-  padding: .8rem;
+  padding: .4rem;
 }
 .btnContainer{
   float: right;

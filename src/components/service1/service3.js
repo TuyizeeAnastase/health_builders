@@ -16,145 +16,436 @@ const Service3=()=>{
         <div className="services">
            <h4 className="services-header" >Available</h4>
           <div>
-           <input style={{marginLeft:'12rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "200px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'120px'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "40px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'8rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div> 
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'2rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "30px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
         </div>
         <div className="services">
            <h4 className="services-header" >Tracked|implemented|updated</h4>
            <div>
-           <input style={{marginLeft:'1.8rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "40px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'120px'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "40px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'8rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div> 
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'2rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "30px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
         </div>
         <div className="services">
            <h4 className="services-header" >Updated by Tutailare</h4>
            <div>
-           <input style={{marginLeft:'6.4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "115px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'120px'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "40px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'8rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div> 
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'2rem'}} className="w4-check" type="checkbox" />
-          </div>
-        </div>
-        <div className="services">
-           <h4 className="services-header" >Aproved by COSA</h4>
-           <div>
-           <input style={{marginLeft:'7.8rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'120px'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'8rem'}} className="w4-check" type="checkbox" />
-          </div> 
-          <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
-          </div>
-          <div>
-           <input style={{marginLeft:'2rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "30px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
         </div>
         <div className="services">
            <h4 className="services-header" >Communicated to staff</h4>
            <div>
-           <input style={{marginLeft:'5.2rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "100px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'120px'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "40px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'8rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div> 
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'2rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "30px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
         </div>
         <div className="services">
            <h4 className="services-header">Includes capital and maintainance</h4>
            <div>
-           <input style={{marginLeft:'.4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "20px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'120px'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "40px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'8rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div> 
           <div>
-           <input style={{marginLeft:'4rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "50px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
           <div>
-           <input style={{marginLeft:'2rem'}} className="w4-check" type="checkbox" />
+          <select
+            name="cars"
+            id="cars"
+            style={{ width: "70px", height: "30px", marginLeft: "30px" }}
+          >
+            <option value="volvo">Options</option>
+            <option value="saab">Y</option>
+            <option value="opel">N</option>
+            <option value="audi">N/A</option>
+          </select>
           </div>
         </div>
       </div>
